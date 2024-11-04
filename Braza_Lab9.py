@@ -1,5 +1,6 @@
 Num = int(input("Enter the number of rows: "))
 
+# y = row , x = column
 i = 1
 for y in range(1, Num + 1): 
     for x in range(1, y + 1): # for row == Num
